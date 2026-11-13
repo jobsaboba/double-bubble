@@ -191,7 +191,7 @@ function renderTabs(){
 
 function badge(p){
   if(p.res === "WIN")  return ["won",   "WIN"  + (p.odds ? " @ " + p.odds : "")];
-  if(p.res === "PLACE")return ["placed","PLACE"];
+  if(p.res === "PLACE")return ["placed","PLACE" + (p.odds ? " @ " + p.odds : "")];
   if(p.res === "LOSE") return ["lost",  "LOST" + (p.odds ? " @ " + p.odds : "")];
   if(p.res === "NR")   return ["skip",  "NR"];
   if(p.res === "VOID") return ["skip",  "VOID"];
