@@ -278,6 +278,16 @@ async function init(quiet){
 
 init();
 setInterval(watch, 60000);
+
+/* keep the last row clear of the fixed footer — measure it instead of
+   guessing a fixed padding, so text wrapping on any phone can't trap
+   the bottom runner behind the ⟳ button */
+const footerEl = document.querySelector("footer.actions");
+function fitFooter(){ document.body.style.paddingBottom = (footerEl.offsetHeight + 20) + "px"; }
+window.addEventListener("resize", fitFooter);
+if(window.ResizeObserver) new ResizeObserver(fitFooter).observe(footerEl);
+fitFooter();
+
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js?v="+Date.now(), { updateViaCache: "none" }).catch(()=>{});
 </script>
 </body>
