@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-10",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "13:15",
+      "meeting": "Ayr",
+      "name": "'Ladbrokes Get More With Racing Bet Builder' Classified Stakes",
+      "picks": [
+        {
+          "horse": "Hostelry",
+          "stars": 5,
+          "odds": "5/2",
+          "score1": 56,
+          "score2": 24,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.13,
+          "ret": 0.46,
+          "bank_after": 13.74
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 1,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.13,
+  "returned": 0.46,
+  "bank": {
+    "start": 13.41,
+    "end": 13.74,
+    "next_stake": 0.14,
+    "season_start": 10.0,
+    "season_end": 13.74
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-02-21",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "16:48",
+      "meeting": "Chepstow",
+      "name": "Pertemps Network EMEA Novices' Limited Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Thorgath",
+          "stars": 5,
+          "odds": "11/5",
+          "score1": 70.0,
+          "score2": 27.0,
+          "pos": 4,
+          "res": "LOSE",
+          "stake": 0.1,
+          "ret": 0.0,
+          "bank_after": 10.0
+        }
+      ]
+    },
+    {
+      "time": "17:18",
+      "meeting": "Chepstow",
+      "name": "Pertemps Network Maiden NH Flat Race (Conditional/Amateurs) (GBB Race)",
+      "picks": [
+        {
+          "horse": "Bande Organisee",
+          "stars": 5,
+          "odds": "8/13",
+          "score1": 93.53,
+          "score2": 33.33,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.16,
+          "bank_after": 10.06
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 2,
+    "settled": 2,
+    "won": 1,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.2,
+  "returned": 0.16,
+  "bank": {
+    "start": 10.1,
+    "end": 10.06,
+    "next_stake": 0.1,
+    "season_start": 10.0,
+    "season_end": 10.06
+  }
+}

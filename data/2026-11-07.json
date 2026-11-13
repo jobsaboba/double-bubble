@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-07",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "13:50",
+      "meeting": "Gowran Park",
+      "name": "PRL Group Maiden Hurdle",
+      "picks": [
+        {
+          "horse": "Huntin Boots",
+          "stars": 4,
+          "odds": "2/1",
+          "score1": 93.51,
+          "score2": 39.53,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.18,
+          "ret": 0.54,
+          "bank_after": 18.25
+        }
+      ]
+    },
+    {
+      "time": "14:40",
+      "meeting": "Southwell",
+      "name": "AWC Finals Day At Newcastle 26th March Novice Stakes (GBB/GBBPlus Race)",
+      "picks": [
+        {
+          "horse": "Highland Ranger",
+          "stars": 4,
+          "odds": "6/4",
+          "score1": 133,
+          "score2": 46.85,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.18,
+          "ret": 0.45,
+          "bank_after": 18.52
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "meeting": "Aintree",
+      "name": "Pertemps Network Handicap Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Our Guide",
+          "stars": 5,
+          "odds": "10/3",
+          "score1": 172.85,
+          "score2": 79.79,
+          "pos": 6,
+          "res": "LOSE",
+          "stake": 0.19,
+          "ret": 0.0,
+          "bank_after": 18.33
+        }
+      ]
+    },
+    {
+      "time": "15:30",
+      "meeting": "Gowran Park",
+      "name": "Pat Carroll's Pub Kilkenny Mares Handicap Hurdle (0-100) (Div 1)",
+      "picks": [
+        {
+          "horse": "A Snow White Park",
+          "stars": 4,
+          "odds": "4/5",
+          "score1": 98.5,
+          "score2": 48.51,
+          "pos": 2,
+          "res": "PLACE",
+          "stake": 0.18,
+          "ret": 0.0,
+          "bank_after": 18.15
+        }
+      ]
+    },
+    {
+      "time": "15:40",
+      "meeting": "Uttoxeter",
+      "name": "Download The Matchbook App Mares' Open NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "Chicks For Free",
+          "stars": 4,
+          "odds": "10/11",
+          "score1": 271.56,
+          "score2": 72,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.18,
+          "ret": 0.34,
+          "bank_after": 18.31
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 5,
+    "settled": 5,
+    "won": 3,
+    "placed": 1,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.91,
+  "returned": 1.33,
+  "bank": {
+    "start": 17.89,
+    "end": 18.31,
+    "next_stake": 0.18,
+    "season_start": 10.0,
+    "season_end": 18.31
+  }
+}

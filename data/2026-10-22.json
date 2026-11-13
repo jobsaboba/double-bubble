@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-22",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "11:51",
+      "meeting": "Ffos Las",
+      "name": "bettingsites.co.uk Fast Withdrawal Mares' Novices' Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Fairy Park",
+          "stars": 5,
+          "odds": "2/7",
+          "score1": 66,
+          "score2": 22.54,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.16,
+          "ret": 0.21,
+          "bank_after": 16.16
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 1,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.16,
+  "returned": 0.21,
+  "bank": {
+    "start": 16.11,
+    "end": 16.16,
+    "next_stake": 0.16,
+    "season_start": 10.0,
+    "season_end": 16.16
+  }
+}

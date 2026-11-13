@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-11",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "14:13",
+      "meeting": "Ayr",
+      "name": "Coral 'Daily Rewards Shaker' Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Rickety Gate",
+          "stars": 3,
+          "odds": "10/3",
+          "score1": 126.64,
+          "score2": 33.0,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.22,
+          "ret": 0.95,
+          "bank_after": 22.78
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "meeting": "Dundalk",
+      "name": "Christmas Party Nights At Dundalk Stadium Handicap",
+      "picks": [
+        {
+          "horse": "Jordan Breeze",
+          "stars": 4,
+          "odds": "7/2",
+          "score1": 219.46,
+          "score2": 53.13,
+          "pos": 7,
+          "res": "LOSE",
+          "stake": 0.23,
+          "ret": 0.0,
+          "bank_after": 22.55
+        }
+      ]
+    },
+    {
+      "time": "14:43",
+      "meeting": "Ayr",
+      "name": "'Play Coral Racing-Super-Series For Free' Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Ballynoe Boy",
+          "stars": 3,
+          "odds": "9/4",
+          "score1": 155.64,
+          "score2": 74.33,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.23,
+          "ret": 0.75,
+          "bank_after": 23.07
+        }
+      ]
+    },
+    {
+      "time": "16:02",
+      "meeting": "Dundalk",
+      "name": "Bet On The Best Night Out At Dundalk Stadium Maiden",
+      "picks": [
+        {
+          "horse": "Resurgence",
+          "stars": 4,
+          "odds": "11/4",
+          "score1": 50.31,
+          "score2": 20.0,
+          "pos": 2,
+          "res": "PLACE",
+          "stake": 0.23,
+          "ret": 0.0,
+          "bank_after": 22.84
+        }
+      ]
+    },
+    {
+      "time": "17:02",
+      "meeting": "Dundalk",
+      "name": "Celebrate Your Special Occasion At Dundalk Stadium Handicap",
+      "picks": [
+        {
+          "horse": "Carrigans Grove",
+          "stars": 3,
+          "odds": "6/1",
+          "score1": 212.46,
+          "score2": 62.32,
+          "pos": 5,
+          "res": "LOSE",
+          "stake": 0.23,
+          "ret": 0.0,
+          "bank_after": 22.61
+        }
+      ]
+    },
+    {
+      "time": "17:32",
+      "meeting": "Dundalk",
+      "name": "Now Racing Every Wednesday At Dundalk Handicap",
+      "picks": [
+        {
+          "horse": "Speckled Meadow",
+          "stars": 4,
+          "odds": "8/1",
+          "score1": 144.46,
+          "score2": 62.0,
+          "pos": 10,
+          "res": "LOSE",
+          "stake": 0.23,
+          "ret": 0.0,
+          "bank_after": 22.38
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 6,
+    "settled": 6,
+    "won": 2,
+    "placed": 1,
+    "lost": 3,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 1.37,
+  "returned": 1.7,
+  "bank": {
+    "start": 22.05,
+    "end": 22.38,
+    "next_stake": 0.22,
+    "season_start": 10.0,
+    "season_end": 22.38
+  }
+}

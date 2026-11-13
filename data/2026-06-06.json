@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-06",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "16:15",
+      "meeting": "Musselburgh",
+      "name": "Edinburgh Gin Cannonball Handicap",
+      "picks": [
+        {
+          "horse": "Little Ted",
+          "stars": 5,
+          "odds": "10/3",
+          "score1": 52,
+          "score2": 22,
+          "pos": 2,
+          "res": "PLACE",
+          "stake": 0.12,
+          "ret": 0.0,
+          "bank_after": 11.81
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "meeting": "Chepstow",
+      "name": "Capital Windscreens Supporting Mental Health Handicap",
+      "picks": [
+        {
+          "horse": "Big Win",
+          "stars": 5,
+          "odds": "9/4",
+          "score1": 100.3,
+          "score2": 36,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.12,
+          "ret": 0.39,
+          "bank_after": 12.08
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 2,
+    "settled": 2,
+    "won": 1,
+    "placed": 1,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.24,
+  "returned": 0.39,
+  "bank": {
+    "start": 11.93,
+    "end": 12.08,
+    "next_stake": 0.12,
+    "season_start": 10.0,
+    "season_end": 12.08
+  }
+}

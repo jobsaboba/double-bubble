@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-09",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "12:00",
+      "meeting": "Punchestown",
+      "name": "Matchbook Betting Exchange Handicap Chase (0-100)",
+      "picks": [
+        {
+          "horse": "Western Model",
+          "stars": 5,
+          "odds": "9/2",
+          "score1": 54,
+          "score2": 21,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.19,
+          "ret": 1.04,
+          "bank_after": 19.97
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "meeting": "Punchestown",
+      "name": "Irish Stallion Farms EBF Fillies Academy Hurdle",
+      "picks": [
+        {
+          "horse": "Smokin Aces",
+          "stars": 4,
+          "odds": "9/4",
+          "score1": 161.6,
+          "score2": 39.6,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.2,
+          "ret": 0.65,
+          "bank_after": 20.42
+        }
+      ]
+    },
+    {
+      "time": "13:10",
+      "meeting": "Stratford",
+      "name": "Stratford Extra Raceday 'National Hunt' Maiden Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Eastern Fire",
+          "stars": 5,
+          "odds": "8/15",
+          "score1": 162.78,
+          "score2": 18.76,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.2,
+          "ret": 0.31,
+          "bank_after": 20.53
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "meeting": "Punchestown",
+      "name": "Matchbook 50/50 Series 3-Y-O Maiden Hurdle",
+      "picks": [
+        {
+          "horse": "Coexist",
+          "stars": 3,
+          "odds": "11/8",
+          "score1": 58,
+          "score2": 27,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.21,
+          "ret": 0.5,
+          "bank_after": 20.82
+        }
+      ]
+    },
+    {
+      "time": "14:03",
+      "meeting": "Punchestown",
+      "name": "Matchbook 50/50 Series Maiden Hurdle",
+      "picks": [
+        {
+          "horse": "Bombay Pat",
+          "stars": 3,
+          "odds": "5/1",
+          "score1": 108,
+          "score2": 36,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.21,
+          "ret": 1.26,
+          "bank_after": 21.87
+        }
+      ]
+    },
+    {
+      "time": "15:35",
+      "meeting": "Carlisle",
+      "name": "Book Your Christmas Party Here Mares' Open Maiden NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "Lady Jetfire",
+          "stars": 5,
+          "odds": "5/6",
+          "score1": 266.65,
+          "score2": 84.08,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.22,
+          "ret": 0.4,
+          "bank_after": 22.05
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 6,
+    "settled": 6,
+    "won": 6,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 1.23,
+  "returned": 4.16,
+  "bank": {
+    "start": 19.12,
+    "end": 22.05,
+    "next_stake": 0.22,
+    "season_start": 10.0,
+    "season_end": 22.05
+  }
+}

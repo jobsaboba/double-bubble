@@ -1,0 +1,81 @@
+{
+  "date": "2026-03-21",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "13:00",
+      "meeting": "Kelso",
+      "name": "BetWright Beeswing Mares' Hurdle (Listed) (GBB Race)",
+      "picks": [
+        {
+          "horse": "Hollygrove Cha Cha",
+          "stars": 4,
+          "odds": "13/8",
+          "score1": 226.81,
+          "score2": 98.07,
+          "pos": 8,
+          "res": "LOSE",
+          "stake": 0.1,
+          "ret": 0.0,
+          "bank_after": 9.77
+        }
+      ]
+    },
+    {
+      "time": "13:07",
+      "meeting": "Bangor-on-Dee",
+      "name": "Alfa Aggregates Products Maiden Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Tommy Pickles",
+          "stars": 4,
+          "odds": "6/4",
+          "score1": 161.67,
+          "score2": 37,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.25,
+          "bank_after": 9.92
+        }
+      ]
+    },
+    {
+      "time": "16:23",
+      "meeting": "Kelso",
+      "name": "Racing Post+ Jodami Open NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "King Kubala",
+          "stars": 3,
+          "odds": "5/2",
+          "score1": 111.07,
+          "score2": 43.22,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.35,
+          "bank_after": 10.17
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 3,
+    "settled": 3,
+    "won": 2,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.3,
+  "returned": 0.6,
+  "bank": {
+    "start": 9.87,
+    "end": 10.17,
+    "next_stake": 0.1,
+    "season_start": 10.0,
+    "season_end": 10.17
+  }
+}

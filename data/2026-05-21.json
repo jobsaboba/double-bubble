@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-21",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "16:30",
+      "meeting": "Chepstow",
+      "name": "LSL Racing Horse Sales Syndication Leasing Restricted Maiden Stakes (GBB Race)",
+      "picks": [
+        {
+          "horse": "Ariane Sky",
+          "stars": 4,
+          "odds": "4/1",
+          "score1": 100.3,
+          "score2": 33,
+          "pos": 5,
+          "res": "LOSE",
+          "stake": 0.12,
+          "ret": 0.0,
+          "bank_after": 11.4
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 0,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.12,
+  "returned": 0.0,
+  "bank": {
+    "start": 11.52,
+    "end": 11.4,
+    "next_stake": 0.11,
+    "season_start": 10.0,
+    "season_end": 11.4
+  }
+}

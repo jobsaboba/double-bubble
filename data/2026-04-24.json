@@ -1,0 +1,62 @@
+{
+  "date": "2026-04-24",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "12:30",
+      "meeting": "Perth",
+      "name": "GS Group Novices' Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Misterdoc",
+          "stars": 5,
+          "odds": "30/100",
+          "score1": 145.45,
+          "score2": 67.0,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.13,
+          "bank_after": 10.27
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "meeting": "Chepstow",
+      "name": "Braceys My Coranna Maiden Hurdle (GBB Race) (Div 1)",
+      "picks": [
+        {
+          "horse": "Mariole",
+          "stars": 4,
+          "odds": "7/1",
+          "score1": 97.05,
+          "score2": 39.67,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.8,
+          "bank_after": 10.97
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 2,
+    "settled": 2,
+    "won": 2,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.2,
+  "returned": 0.93,
+  "bank": {
+    "start": 10.24,
+    "end": 10.97,
+    "next_stake": 0.11,
+    "season_start": 10.0,
+    "season_end": 10.97
+  }
+}

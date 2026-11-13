@@ -1,0 +1,62 @@
+{
+  "date": "2026-01-08",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "12:40",
+      "meeting": "Ffos Las",
+      "name": "BOG On British Racing At DragonBet Novices' Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Bossman Jack",
+          "stars": 5,
+          "odds": "10/11",
+          "score1": 174.78,
+          "score2": 73.67,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.19,
+          "bank_after": 10.27
+        }
+      ]
+    },
+    {
+      "time": "13:10",
+      "meeting": "Ffos Las",
+      "name": "Watch All UK Racing On DragonBet Maiden Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Giantsgrave",
+          "stars": 5,
+          "odds": "11/10",
+          "score1": 135.78,
+          "score2": 50.0,
+          "pos": 5,
+          "res": "LOSE",
+          "stake": 0.1,
+          "ret": 0.0,
+          "bank_after": 10.17
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 2,
+    "settled": 2,
+    "won": 1,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.2,
+  "returned": 0.19,
+  "bank": {
+    "start": 10.18,
+    "end": 10.17,
+    "next_stake": 0.1,
+    "season_start": 10.0,
+    "season_end": 10.17
+  }
+}

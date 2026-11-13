@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-27",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "14:16",
+      "meeting": "Bangor-on-Dee",
+      "name": "Jodie Standing's Point-To-Point Recruits Novices' Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Rattlin Home",
+          "stars": 5,
+          "odds": "2/5",
+          "score1": 157.45,
+          "score2": 24.69,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.16,
+          "ret": 0.22,
+          "bank_after": 16.22
+        }
+      ]
+    },
+    {
+      "time": "14:46",
+      "meeting": "Bangor-on-Dee",
+      "name": "Kellyhill Financial Planning Mares' Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Queen Maeve",
+          "stars": 5,
+          "odds": "5/2",
+          "score1": 127.45,
+          "score2": 58.0,
+          "pos": 4,
+          "res": "LOSE",
+          "stake": 0.16,
+          "ret": 0.0,
+          "bank_after": 16.06
+        }
+      ]
+    },
+    {
+      "time": "16:16",
+      "meeting": "Bangor-on-Dee",
+      "name": "Overton Handicap Chase (GBB Race)",
+      "picks": [
+        {
+          "horse": "Twistthenightaway",
+          "stars": 5,
+          "odds": "7/2",
+          "score1": 135.45,
+          "score2": 60.59,
+          "pos": 6,
+          "res": "LOSE",
+          "stake": 0.16,
+          "ret": 0.0,
+          "bank_after": 15.9
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 3,
+    "settled": 3,
+    "won": 1,
+    "placed": 0,
+    "lost": 2,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.48,
+  "returned": 0.22,
+  "bank": {
+    "start": 16.16,
+    "end": 15.9,
+    "next_stake": 0.16,
+    "season_start": 10.0,
+    "season_end": 15.9
+  }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#0b1220">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Bubble">
+<title>Double Bubble Racing</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<style>
+  :root{
+    --bg:#0b1220; --panel:#131c2e; --panel2:#0f172a; --line:#22304a;
+    --ink:#e7eef9; --dim:#8fa3bf; --sky:#38bdf8; --emerald:#10b981; --em:#34d399;
+    --gold:#fbbf24; --red:#ef4444;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html,body{margin:0; padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--ink); padding:12px 12px 110px; max-width:440px; margin:0 auto;
+  }
+  header{display:flex; justify-content:space-between; align-items:center; padding:6px 2px 12px}
+  .brand{font-weight:900; font-size:1.05rem; letter-spacing:.3px}
+  .brand span{color:var(--gold)}
+  .datechip{font-size:.72rem; color:var(--dim); text-transform:uppercase; letter-spacing:1px}
+
+  /* day tabs */
+  .days{display:flex; gap:6px; overflow-x:auto; padding:2px 0 10px; scrollbar-width:none}
+  .days::-webkit-scrollbar{display:none}
+  .day{border:1px solid var(--line); background:var(--panel); color:var(--dim); border-radius:999px;
+    padding:6px 11px; font-size:.72rem; font-weight:800; white-space:nowrap; cursor:pointer; flex-shrink:0}
+  .day.on{background:var(--gold); border-color:var(--gold); color:#231a02}
+  .day .dot{display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--emerald); margin-left:5px; opacity:.9}
+
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:18px;
+    padding:16px; margin-bottom:12px; box-shadow:0 8px 22px rgba(0,0,0,.35)}
+  .label{font-size:.65rem; color:var(--dim); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:6px}
+  .row{display:flex; justify-content:space-between; align-items:center; gap:8px}
+
+  .stats{display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px}
+  .stat{background:var(--panel2); border:1px solid var(--line); border-radius:12px; padding:8px 10px; overflow:hidden}
+  .stat .label{margin-bottom:2px; white-space:nowrap; letter-spacing:1px}
+  .stat .v{font-weight:800; font-size:1.02rem; margin-top:2px; white-space:nowrap}
+  .stat .v.gold{color:var(--gold)} .stat .v.pos{color:var(--em)} .stat .v.neg{color:var(--red)}
+  .chip{background:#1c2a44; border:1px solid var(--line); border-radius:999px; padding:2px 8px; font-size:.68rem; color:var(--dim)}
+  .chip.money{background:#0a2740; border-color:#1d4d7a; color:var(--sky); font-weight:700}
+  .chip.gold{background:#2d2410; border-color:#6b5312; color:#fcd34d; font-weight:800}
+  .stars{color:var(--gold); letter-spacing:2px; font-size:.8rem}
+
+  .race{display:flex; gap:10px; align-items:flex-start; background:var(--panel2);
+    border:1px solid var(--line); border-radius:14px; padding:10px 12px; margin-bottom:8px}
+  .race .t{font-weight:900; font-size:.95rem; color:var(--gold); min-width:44px}
+  .race .t small{display:block; color:var(--dim); font-weight:600; font-size:.6rem}
+  .race .mid{flex:1; min-width:0}
+  .race .mid .h{font-weight:700; font-size:.92rem}
+  .race .mid .r{font-size:.68rem; color:var(--dim); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .race.done{opacity:.62}
+  .badge{font-size:.62rem; font-weight:900; border-radius:8px; padding:3px 7px; white-space:nowrap; align-self:center}
+  .badge.won{background:#0b2e21; color:var(--em)}
+  .badge.placed{background:#2d2410; color:var(--gold)}
+  .badge.lost{background:#331111; color:#fca5a5}
+  .badge.skip{background:#1c2a44; color:var(--dim)}
+  .badge.pending{background:#2d2410; color:#fcd34d}
+
+  footer.actions{position:fixed; bottom:0; left:0; right:0; background:linear-gradient(transparent,var(--bg) 30%);
+    padding:18px 12px 20px; max-width:440px; margin:0 auto}
+  .hint{font-size:.68rem; color:var(--dim); text-align:center; margin-top:8px; line-height:1.5}
+  .topbtns{display:flex; gap:6px}
+  .iconbtn{background:var(--panel); border:1px solid var(--line); color:var(--dim); border-radius:10px; padding:7px 9px; font-size:.9rem; cursor:pointer}
+  .toast{position:fixed; left:50%; transform:translateX(-50%); bottom:120px; background:#123; color:var(--ink);
+    border:1px solid var(--line); padding:10px 16px; border-radius:999px; font-size:.82rem; z-index:50; opacity:0; transition:opacity .25s}
+  .toast.show{opacity:1}
+  h3.sec{font-size:.68rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--dim); margin:18px 2px 8px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="brand">Double <span>Bubble</span></div>
+    <div class="datechip" id="dateChip"></div>
+  </div>
+  <div class="topbtns">
+    <button class="iconbtn" id="instBtn" style="display:none" onclick="doInstall()" title="Install app">⤓</button>
+  </div>
+</header>
+
+<div class="days" id="days"></div>
+
+<div class="card">
+  <div class="row" style="margin-bottom:8px">
+    <div class="label" style="margin:0">Rolling bank</div>
+    <div class="chip" id="nextStakeChip"></div>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="label">Bank</div><div class="v gold" id="bankV">—</div></div>
+    <div class="stat"><div class="label">Day P/L</div><div class="v" id="plV">—</div></div>
+    <div class="stat"><div class="label">W·P·L</div><div class="v" id="wplV">—</div></div>
+  </div>
+</div>
+
+<h3 class="sec">Selections · odds · returns</h3>
+<div id="list"></div>
+
+<footer class="actions">
+  <button class="btn ghost" id="fetchBtn" onclick="refreshDay(false)" style="background:var(--panel2); color:var(--dim); border:1px solid var(--line); border-radius:12px; padding:13px; font-weight:800; width:100%; cursor:pointer">⟳ Refresh this day</button>
+  <div class="hint">A race goes on Double Bubble when the Holy Grail's <b>top runner scores at least twice its second</b>.<br>
+  £10 start · every pick stakes <b>1% of the rolling bank</b> · win-only at the published odds — a WIN pays the price, anything else costs the stake, non-runners refunded.<br>
+  © Dave Court · v1</div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+/* Double Bubble v1 — pure viewer. Day tabs; the laptop computes and
+   publishes everything from the Holy Grail's files. */
+
+let DAYS = [], SEL = todayStr(), day = null;
+const loaded = new Map();
+let deferredPrompt = null, lastSeenDay = todayStr();
+
+function todayStr(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function r2(n){ return Math.round(n*100)/100; }
+function fmt(n){ return "£" + r2(n).toFixed(2); }
+function sgn(n){ return (n>=0?"+":"−") + "£" + Math.abs(r2(n)).toFixed(2); }
+function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c =>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show");
+  clearTimeout(window.__tt); window.__tt=setTimeout(()=>t.classList.remove("show"),2600); }
+
+async function jget(path){
+  const res = await fetch(path + "?ts=" + Date.now(), {cache:"no-store"});
+  if(!res.ok) throw new Error(path + " → HTTP " + res.status);
+  return res.json();
+}
+
+async function loadDay(d, quiet){
+  if(loaded.has(d)){ day = loaded.get(d); SEL = d; render(); return true; }
+  if(!quiet) document.getElementById("list").innerHTML =
+    `<div class="card" style="font-size:.82rem;color:var(--dim)">Loading ${esc(d)}…</div>`;
+  try{
+    day = await jget(`data/${d}.json`);
+    loaded.set(d, day); SEL = d; render();
+    location.hash = d;
+    return true;
+  }catch(e){
+    if(d === todayStr()){
+      day = null; SEL = d; render();
+      toast("Nothing published for " + d + " yet");
+    } else {
+      toast("No data for " + d);
+      DAYS = DAYS.filter(x=>x!==d); renderTabs();
+      SEL = DAYS[0] || todayStr(); loadDay(SEL, true);
+    }
+    return false;
+  }
+}
+
+async function refreshDay(silent){
+  const btn=document.getElementById("fetchBtn");
+  if(!silent) btn.textContent="⟳ Refreshing…";
+  loaded.delete(SEL);
+  const ok = await loadDay(SEL, true);
+  if(!silent){ btn.textContent="⟳ Refresh this day"; if(ok) toast("Refreshed " + SEL); }
+}
+
+function renderTabs(){
+  const box = document.getElementById("days");
+  box.innerHTML = "";
+  for(const d of DAYS){
+    const el = document.createElement("button");
+    el.className = "day" + (d === SEL ? " on" : "");
+    el.textContent = d.slice(5).replace("-", "/");
+    const rec = loaded.get(d);
+    if(rec && rec.score && rec.score.settled)
+      el.insertAdjacentHTML("beforeend", '<span class="dot"></span>');
+    el.onclick = () => loadDay(d);
+    box.appendChild(el);
+  }
+  if(SEL && !DAYS.includes(SEL)){
+    const el = document.createElement("button");
+    el.className = "day on"; el.textContent = SEL.slice(5).replace("-", "/");
+    box.prepend(el);
+  }
+}
+
+function badge(p){
+  if(p.res === "WIN")  return ["won",   "WIN"  + (p.odds ? " @ " + p.odds : "")];
+  if(p.res === "PLACE")return ["placed","PLACE"];
+  if(p.res === "LOSE") return ["lost",  "LOST" + (p.odds ? " @ " + p.odds : "")];
+  if(p.res === "NR")   return ["skip",  "NR"];
+  if(p.res === "VOID") return ["skip",  "VOID"];
+  return null;
+}
+
+function render(){
+  const isToday = SEL === todayStr();
+  document.getElementById("dateChip").textContent = SEL + (isToday ? " · today" : "");
+  document.title = "Bubble · " + SEL;
+  renderTabs();
+
+  const b = day && day.bank;
+  const bankV=document.getElementById("bankV"), plV=document.getElementById("plV"),
+        wplV=document.getElementById("wplV"), nsC=document.getElementById("nextStakeChip");
+  if(b){
+    bankV.textContent = fmt(b.end ?? b.start);
+    const pl = (b.end ?? b.start) - b.start;
+    plV.textContent = sgn(pl);
+    plV.className = "v " + (pl>=0?"pos":"neg");
+    nsC.textContent = "next stake " + fmt(b.next_stake ?? r2((b.end ?? b.start)*0.01));
+  } else {
+    bankV.textContent="—"; plV.textContent="—"; plV.className="v"; nsC.textContent="";
+  }
+  const sc = day && day.score;
+  if(sc && sc.settled){
+    wplV.innerHTML =
+      `<span style="color:var(--em)">${sc.won??0}</span>·<span style="color:var(--gold)">${sc.placed??0}</span>·<span style="color:var(--red)">${sc.lost??0}</span>`;
+    wplV.className = "v";
+  } else { wplV.textContent="—"; wplV.className="v"; }
+
+  const list=document.getElementById("list");
+  const races = (day && day.races) || [];
+  if(!races.length){
+    list.innerHTML = `<div class="card" style="font-size:.82rem;color:var(--dim)">No double bubble on ${esc(SEL)} — no race's top runner doubled its second.</div>`;
+    return;
+  }
+  list.innerHTML = races.map(rc => rc.picks.map(p=>{
+    const past = p.res && p.res !== "?";
+    const bd = badge(p);
+    let amt = "";
+    if(p.res === "NR" || p.res === "VOID") amt = `<span class="chip">stake returned</span>`;
+    else if(p.res !== "?" && p.stake != null){
+      const d = r2((p.ret||0) - p.stake);
+      amt = `<span class="chip money">${fmt(p.stake)} → ${fmt(p.ret||0)} (${sgn(d)}) · bank ${fmt(p.bank_after)}</span>`;
+    }
+    const x = p.score2 ? (p.score1 / p.score2).toFixed(1) : "—";
+    return `<div class="race ${past?"done":""}">
+      <div class="t">${esc(rc.time)}<small>${esc(rc.meeting)}</small></div>
+      <div class="mid"><div class="h">${esc(p.horse)} <span class="stars">${"★".repeat(p.stars||0)}</span></div>
+        <div class="r">${esc(rc.race || rc.meeting)}</div>
+        <div class="r" style="margin-top:3px">
+          <span class="chip gold">${esc(p.odds||"")}</span>
+          <span class="chip">score ×${x} — top ${esc(r2(p.score1))} vs 2nd ${esc(r2(p.score2))}</span>
+          ${amt?`<span class="chip money" style="margin-left:4px">${amt}</span>`:""}
+        </div></div>
+      ${bd?`<div class="badge ${bd[0]}">${bd[1]}</div>`:""}</div>`;
+  }).join("")).join("");
+}
+
+async function watch(){
+  const t = todayStr();
+  if(t !== lastSeenDay){ lastSeenDay = t; DAYS = []; loaded.clear(); await init(true); return; }
+  if(SEL !== t) return;
+  if(day) await refreshDay(true);
+}
+
+window.addEventListener("beforeinstallprompt", e=>{
+  e.preventDefault(); deferredPrompt=e; document.getElementById("instBtn").style.display="";
+});
+function doInstall(){ if(deferredPrompt){ deferredPrompt.prompt(); deferredPrompt=null; document.getElementById("instBtn").style.display="none"; } }
+
+async function init(quiet){
+  try{
+    const idx = await jget("data/index.json");
+    DAYS = idx.days || [];
+  }catch(e){ DAYS = []; }
+  if(!DAYS.includes(todayStr())) DAYS.unshift(todayStr());
+  const hash = (location.hash || "").replace("#", "");
+  SEL = (hash && DAYS.includes(hash)) ? hash
+      : (DAYS.includes(todayStr()) ? todayStr() : DAYS[0] || todayStr());
+  await loadDay(SEL, quiet);
+}
+
+init();
+setInterval(watch, 60000);
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js?v="+Date.now(), { updateViaCache: "none" }).catch(()=>{});
+</script>
+</body>
+</html>

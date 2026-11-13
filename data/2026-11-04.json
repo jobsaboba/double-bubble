@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-04",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "13:58",
+      "meeting": "Chepstow",
+      "name": "LSL Racing 'National Hunt' Maiden Hurdle (GBB Race) (Div 2)",
+      "picks": [
+        {
+          "horse": "A Sight To Sea",
+          "stars": 5,
+          "odds": "4/7",
+          "score1": 207.45,
+          "score2": 66.88,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.16,
+          "ret": 0.25,
+          "bank_after": 15.99
+        }
+      ]
+    },
+    {
+      "time": "15:40",
+      "meeting": "Chepstow",
+      "name": "Floyds Turfcare & Weed Solutions Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "I Heard A Rumour",
+          "stars": 4,
+          "odds": "7/2",
+          "score1": 127.45,
+          "score2": 61.0,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.16,
+          "ret": 0.72,
+          "bank_after": 16.55
+        }
+      ]
+    },
+    {
+      "time": "16:10",
+      "meeting": "Chepstow",
+      "name": "Dunraven Open NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "Don't Panic",
+          "stars": 5,
+          "odds": "5/2",
+          "score1": 176.05,
+          "score2": 74.45,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.17,
+          "ret": 0.6,
+          "bank_after": 16.98
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 3,
+    "settled": 3,
+    "won": 3,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.49,
+  "returned": 1.57,
+  "bank": {
+    "start": 15.9,
+    "end": 16.98,
+    "next_stake": 0.17,
+    "season_start": 10.0,
+    "season_end": 16.98
+  }
+}

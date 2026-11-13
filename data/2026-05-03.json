@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-03",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "15:25",
+      "meeting": "Hamilton",
+      "name": "Carolyn Murray Birthday Celebrations Handicap",
+      "picks": [
+        {
+          "horse": "Liverpool Star",
+          "stars": 5,
+          "odds": "11/10",
+          "score1": 44,
+          "score2": 22,
+          "pos": 4,
+          "res": "LOSE",
+          "stake": 0.11,
+          "ret": 0.0,
+          "bank_after": 10.92
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 0,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.11,
+  "returned": 0.0,
+  "bank": {
+    "start": 11.03,
+    "end": 10.92,
+    "next_stake": 0.11,
+    "season_start": 10.0,
+    "season_end": 10.92
+  }
+}

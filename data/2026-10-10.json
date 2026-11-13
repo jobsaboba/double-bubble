@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "16:10",
+      "meeting": "Chepstow",
+      "name": "LSL Racing Mares' Open NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "Northern Singer",
+          "stars": 5,
+          "odds": "7/4",
+          "score1": 207.45,
+          "score2": 54.05,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.16,
+          "ret": 0.44,
+          "bank_after": 15.79
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 1,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.16,
+  "returned": 0.44,
+  "bank": {
+    "start": 15.51,
+    "end": 15.79,
+    "next_stake": 0.16,
+    "season_start": 10.0,
+    "season_end": 15.79
+  }
+}

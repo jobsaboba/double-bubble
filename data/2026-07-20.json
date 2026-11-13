@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-20",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "15:30",
+      "meeting": "Ayr",
+      "name": "Try Racing TV For Free Now Handicap",
+      "picks": [
+        {
+          "horse": "Glasses Up",
+          "stars": 4,
+          "odds": "5/2",
+          "score1": 55,
+          "score2": 26,
+          "pos": 4,
+          "res": "LOSE",
+          "stake": 0.14,
+          "ret": 0.0,
+          "bank_after": 13.59
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 0,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.14,
+  "returned": 0.0,
+  "bank": {
+    "start": 13.73,
+    "end": 13.59,
+    "next_stake": 0.14,
+    "season_start": 10.0,
+    "season_end": 13.59
+  }
+}

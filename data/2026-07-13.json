@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-13",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "14:00",
+      "meeting": "Ayr",
+      "name": "Watch Racing TV Free For 31 Days Handicap",
+      "picks": [
+        {
+          "horse": "White Ladder",
+          "stars": 5,
+          "odds": "6/4",
+          "score1": 103.0,
+          "score2": 48,
+          "pos": 4,
+          "res": "LOSE",
+          "stake": 0.13,
+          "ret": 0.0,
+          "bank_after": 13.2
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "meeting": "Ayr",
+      "name": "racingtv.com/freetrial Handicap",
+      "picks": [
+        {
+          "horse": "Runninsonofagun",
+          "stars": 5,
+          "odds": "2/1",
+          "score1": 87.0,
+          "score2": 40.0,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.13,
+          "ret": 0.39,
+          "bank_after": 13.46
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "meeting": "Ayr",
+      "name": "Try Racing TV For Free Now Handicap",
+      "picks": [
+        {
+          "horse": "Jkr Cobbler",
+          "stars": 5,
+          "odds": "6/4",
+          "score1": 59,
+          "score2": 22,
+          "pos": 4,
+          "res": "LOSE",
+          "stake": 0.13,
+          "ret": 0.0,
+          "bank_after": 13.33
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 3,
+    "settled": 3,
+    "won": 1,
+    "placed": 0,
+    "lost": 2,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.39,
+  "returned": 0.39,
+  "bank": {
+    "start": 13.33,
+    "end": 13.33,
+    "next_stake": 0.13,
+    "season_start": 10.0,
+    "season_end": 13.33
+  }
+}

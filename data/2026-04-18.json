@@ -1,0 +1,81 @@
+{
+  "date": "2026-04-18",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "12:17",
+      "meeting": "Bangor-on-Dee",
+      "name": "Broxton Gates Novices' Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Senator",
+          "stars": 5,
+          "odds": "1/1",
+          "score1": 198.81,
+          "score2": 67.34,
+          "pos": 2,
+          "res": "PLACE",
+          "stake": 0.11,
+          "ret": 0.0,
+          "bank_after": 10.51
+        }
+      ]
+    },
+    {
+      "time": "12:52",
+      "meeting": "Bangor-on-Dee",
+      "name": "Gieves & Hawkes Novices' Handicap Chase",
+      "picks": [
+        {
+          "horse": "Streamsforth Lad",
+          "stars": 5,
+          "odds": "13/8",
+          "score1": 96.81,
+          "score2": 42,
+          "pos": 3,
+          "res": "PLACE",
+          "stake": 0.11,
+          "ret": 0.0,
+          "bank_after": 10.4
+        }
+      ]
+    },
+    {
+      "time": "15:42",
+      "meeting": "Bangor-on-Dee",
+      "name": "Overton Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Dwight K Schrute",
+          "stars": 5,
+          "odds": "3/1",
+          "score1": 176.81,
+          "score2": 53.54,
+          "pos": 5,
+          "res": "LOSE",
+          "stake": 0.1,
+          "ret": 0.0,
+          "bank_after": 10.3
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 3,
+    "settled": 3,
+    "won": 0,
+    "placed": 2,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.32,
+  "returned": 0.0,
+  "bank": {
+    "start": 10.62,
+    "end": 10.3,
+    "next_stake": 0.1,
+    "season_start": 10.0,
+    "season_end": 10.3
+  }
+}

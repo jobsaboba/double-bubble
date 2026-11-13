@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-07",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "14:20",
+      "meeting": "Musselburgh",
+      "name": "Champagne Pommery Cuvee Louise Gold Cup Handicap",
+      "picks": [
+        {
+          "horse": "Eagle Bay",
+          "stars": 4,
+          "odds": "3/1",
+          "score1": 117.0,
+          "score2": 46,
+          "pos": 7,
+          "res": "LOSE",
+          "stake": 0.14,
+          "ret": 0.0,
+          "bank_after": 13.69
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 0,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.14,
+  "returned": 0.0,
+  "bank": {
+    "start": 13.83,
+    "end": 13.69,
+    "next_stake": 0.14,
+    "season_start": 10.0,
+    "season_end": 13.69
+  }
+}

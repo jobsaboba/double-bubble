@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-28",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "16:35",
+      "meeting": "Kelso",
+      "name": "bet365 Mares' Novices' Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "A Path To Ronda",
+          "stars": 5,
+          "odds": "1/10",
+          "score1": 211.81,
+          "score2": 74.55,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.11,
+          "bank_after": 9.97
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 1,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.1,
+  "returned": 0.11,
+  "bank": {
+    "start": 9.96,
+    "end": 9.97,
+    "next_stake": 0.1,
+    "season_start": 10.0,
+    "season_end": 9.97
+  }
+}

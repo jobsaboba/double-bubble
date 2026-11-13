@@ -1,0 +1,62 @@
+{
+  "date": "2026-04-02",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "15:46",
+      "meeting": "Kelso",
+      "name": "Join Racing TV Now Handicap Chase (GBB Race)",
+      "picks": [
+        {
+          "horse": "Always A Reason",
+          "stars": 5,
+          "odds": "6/4",
+          "score1": 103.07,
+          "score2": 35.92,
+          "pos": 5,
+          "res": "LOSE",
+          "stake": 0.1,
+          "ret": 0.0,
+          "bank_after": 10.26
+        }
+      ]
+    },
+    {
+      "time": "16:15",
+      "meeting": "Chepstow",
+      "name": "InItTogether Festival 22nd-24th May Open NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "Order On Time",
+          "stars": 4,
+          "odds": "6/5",
+          "score1": 133.88,
+          "score2": 56.0,
+          "pos": 1,
+          "res": "WIN",
+          "stake": 0.1,
+          "ret": 0.22,
+          "bank_after": 10.38
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 2,
+    "settled": 2,
+    "won": 1,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.2,
+  "returned": 0.22,
+  "bank": {
+    "start": 10.36,
+    "end": 10.38,
+    "next_stake": 0.1,
+    "season_start": 10.0,
+    "season_end": 10.38
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-23",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "16:00",
+      "meeting": "Ayr",
+      "name": "Join Racing TV Now Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Diamond Geezer",
+          "stars": 4,
+          "odds": "9/4",
+          "score1": 114.0,
+          "score2": 45.07,
+          "pos": 7,
+          "res": "LOSE",
+          "stake": 0.1,
+          "ret": 0.0,
+          "bank_after": 9.96
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 0,
+    "placed": 0,
+    "lost": 1,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.1,
+  "returned": 0.0,
+  "bank": {
+    "start": 10.06,
+    "end": 9.96,
+    "next_stake": 0.1,
+    "season_start": 10.0,
+    "season_end": 9.96
+  }
+}

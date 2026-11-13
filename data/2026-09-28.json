@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-28",
+  "generated": "2026-11-13T13:08:28+00:00",
+  "races": [
+    {
+      "time": "16:13",
+      "meeting": "Hamilton",
+      "name": "Annual Members Of Hamilton Park Handicap",
+      "picks": [
+        {
+          "horse": "Uncle Liam",
+          "stars": 4,
+          "odds": "9/4",
+          "score1": 55,
+          "score2": 22,
+          "pos": 3,
+          "res": "PLACE",
+          "stake": 0.15,
+          "ret": 0.0,
+          "bank_after": 15.06
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 1,
+    "won": 0,
+    "placed": 1,
+    "lost": 0,
+    "nr": 0,
+    "pending": 0
+  },
+  "staked": 0.15,
+  "returned": 0.0,
+  "bank": {
+    "start": 15.21,
+    "end": 15.06,
+    "next_stake": 0.15,
+    "season_start": 10.0,
+    "season_end": 15.06
+  }
+}
