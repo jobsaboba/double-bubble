@@ -1,5 +1,5 @@
 /* Double Bubble Racing — service worker (app shell cache + fresh data) */
-const CACHE = "dbapp-v3";
+const CACHE = "dbapp-v4";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {
