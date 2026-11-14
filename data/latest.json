@@ -1,26 +1,7 @@
 {
   "date": "2026-11-14",
-  "generated": "2026-11-14T06:25:01+00:00",
+  "generated": "2026-11-14T13:00:46+00:00",
   "races": [
-    {
-      "time": "12:20",
-      "meeting": "Windsor",
-      "name": "A1R Services Ltd Mares' Maiden Hurdle (GBB Race)",
-      "picks": [
-        {
-          "horse": "Ti'mamzel",
-          "stars": 5,
-          "odds": "10/11",
-          "score1": 127.23,
-          "score2": 42.36,
-          "pos": 0,
-          "res": null,
-          "stake": 0.22,
-          "ret": null,
-          "bank_after": 22.31
-        }
-      ]
-    },
     {
       "time": "14:35",
       "meeting": "Windsor",
@@ -61,13 +42,13 @@
     }
   ],
   "score": {
-    "picks": 3,
+    "picks": 2,
     "settled": 0,
     "won": 0,
     "placed": 0,
     "lost": 0,
     "nr": 0,
-    "pending": 3
+    "pending": 2
   },
   "staked": 0,
   "returned": 0,
