@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-14",
+  "generated": "2026-11-14T06:25:01+00:00",
+  "races": [
+    {
+      "time": "12:20",
+      "meeting": "Windsor",
+      "name": "A1R Services Ltd Mares' Maiden Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Ti'mamzel",
+          "stars": 5,
+          "odds": "10/11",
+          "score1": 127.23,
+          "score2": 42.36,
+          "pos": 0,
+          "res": null,
+          "stake": 0.22,
+          "ret": null,
+          "bank_after": 22.31
+        }
+      ]
+    },
+    {
+      "time": "14:35",
+      "meeting": "Windsor",
+      "name": "Join Fitzdares For A Personal Service Handicap Chase (GBB Race)",
+      "picks": [
+        {
+          "horse": "King Califet",
+          "stars": 5,
+          "odds": "2/1",
+          "score1": 135.36,
+          "score2": 50.23,
+          "pos": 0,
+          "res": null,
+          "stake": 0.22,
+          "ret": null,
+          "bank_after": 22.31
+        }
+      ]
+    },
+    {
+      "time": "15:35",
+      "meeting": "Uttoxeter",
+      "name": "1664 Biere Open NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "Lady Coco",
+          "stars": 3,
+          "odds": "9/2",
+          "score1": 162.0,
+          "score2": 59.33,
+          "pos": 0,
+          "res": null,
+          "stake": 0.22,
+          "ret": null,
+          "bank_after": 22.31
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 3,
+    "settled": 0,
+    "won": 0,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 3
+  },
+  "staked": 0,
+  "returned": 0,
+  "bank": {
+    "start": 22.31,
+    "end": 22.31,
+    "next_stake": 0.22,
+    "season_start": 10.0,
+    "season_end": 22.31
+  }
+}
