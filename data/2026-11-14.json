@@ -1,7 +1,45 @@
 {
   "date": "2026-11-14",
-  "generated": "2026-11-15T06:00:01+00:00",
+  "generated": "2026-11-15T06:05:09+00:00",
   "races": [
+    {
+      "time": "12:20",
+      "meeting": "Windsor",
+      "name": "A1R Services Ltd Mares' Maiden Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Ti'mamzel",
+          "stars": 5,
+          "odds": "10/11",
+          "score1": 127.23,
+          "score2": 42.36,
+          "pos": 0,
+          "res": "NR",
+          "stake": 0.0,
+          "ret": null,
+          "bank_after": 22.31
+        }
+      ]
+    },
+    {
+      "time": "14:35",
+      "meeting": "Windsor",
+      "name": "Join Fitzdares For A Personal Service Handicap Chase (GBB Race)",
+      "picks": [
+        {
+          "horse": "King Califet",
+          "stars": 5,
+          "odds": "2/1",
+          "score1": 135.36,
+          "score2": 50.23,
+          "pos": 0,
+          "res": "NR",
+          "stake": 0.0,
+          "ret": null,
+          "bank_after": 22.31
+        }
+      ]
+    },
     {
       "time": "15:35",
       "meeting": "Uttoxeter",
@@ -23,12 +61,12 @@
     }
   ],
   "score": {
-    "picks": 1,
+    "picks": 3,
     "settled": 1,
     "won": 0,
     "placed": 0,
     "lost": 1,
-    "nr": 0,
+    "nr": 2,
     "pending": 0
   },
   "staked": 0.22,

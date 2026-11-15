@@ -1,6 +1,6 @@
 {
   "date": "2026-02-06",
-  "generated": "2026-11-15T05:49:35+00:00",
+  "generated": "2026-11-15T06:05:09+00:00",
   "races": [
     {
       "time": "14:57",
@@ -14,8 +14,8 @@
           "score1": 140.78,
           "score2": 65.69,
           "pos": 0,
-          "res": null,
-          "stake": 0.1,
+          "res": "NR",
+          "stake": 0.0,
           "ret": null,
           "bank_after": 9.97
         }
@@ -28,8 +28,8 @@
     "won": 0,
     "placed": 0,
     "lost": 0,
-    "nr": 0,
-    "pending": 1
+    "nr": 1,
+    "pending": 0
   },
   "staked": 0,
   "returned": 0,
