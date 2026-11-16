@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-16",
+  "generated": "2026-11-16T05:25:01+00:00",
+  "races": [
+    {
+      "time": "18:00",
+      "meeting": "Wolverhampton",
+      "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2)",
+      "picks": [
+        {
+          "horse": "Al Lahbab",
+          "stars": 5,
+          "odds": "10/11",
+          "score1": 105.65,
+          "score2": 22.11,
+          "pos": 0,
+          "res": null,
+          "stake": 0.22,
+          "ret": null,
+          "bank_after": 21.65
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 1,
+    "settled": 0,
+    "won": 0,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 1
+  },
+  "staked": 0,
+  "returned": 0,
+  "bank": {
+    "start": 21.65,
+    "end": 21.65,
+    "next_stake": 0.22,
+    "season_start": 10.0,
+    "season_end": 21.65
+  }
+}
