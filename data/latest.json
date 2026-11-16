@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generated": "2026-11-16T18:00:42+00:00",
+  "generated": "2026-11-16T18:30:42+00:00",
   "races": [
     {
       "time": "18:00",
@@ -13,31 +13,31 @@
           "odds": "10/11",
           "score1": 105.65,
           "score2": 22.11,
-          "pos": 0,
-          "res": null,
+          "pos": 4,
+          "res": "LOSE",
           "stake": 0.22,
-          "ret": null,
-          "bank_after": 21.65
+          "ret": 0.0,
+          "bank_after": 21.43
         }
       ]
     }
   ],
   "score": {
     "picks": 1,
-    "settled": 0,
+    "settled": 1,
     "won": 0,
     "placed": 0,
-    "lost": 0,
+    "lost": 1,
     "nr": 0,
-    "pending": 1
+    "pending": 0
   },
-  "staked": 0,
-  "returned": 0,
+  "staked": 0.22,
+  "returned": 0.0,
   "bank": {
     "start": 21.65,
-    "end": 21.65,
-    "next_stake": 0.22,
+    "end": 21.43,
+    "next_stake": 0.21,
     "season_start": 10.0,
-    "season_end": 21.65
+    "season_end": 21.43
   }
 }
