@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-16",
-  "generated": "2026-11-16T22:30:30+00:00",
+  "date": "2026-11-17",
+  "generated": "2026-11-17T05:25:01+00:00",
   "races": [
     {
       "time": "18:00",
-      "meeting": "Wolverhampton",
-      "name": "AWC Season 14 Has Begun EBF Novice Stakes (GBB/GBBPlus Race) (Div 2)",
+      "meeting": "Southwell",
+      "name": "AWC Season 14 Has Begun Fillies' Novice Stakes (GBB/GBBPlus Race)",
       "picks": [
         {
-          "horse": "Al Lahbab",
-          "stars": 5,
-          "odds": "10/11",
-          "score1": 105.65,
-          "score2": 22.11,
-          "pos": 4,
-          "res": "LOSE",
-          "stake": 0.22,
-          "ret": 0.0,
+          "horse": "Bintnaseefa",
+          "stars": 4,
+          "odds": "9/2",
+          "score1": 111.0,
+          "score2": 55.09,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
           "bank_after": 21.43
         }
       ]
@@ -24,17 +24,17 @@
   ],
   "score": {
     "picks": 1,
-    "settled": 1,
+    "settled": 0,
     "won": 0,
     "placed": 0,
-    "lost": 1,
+    "lost": 0,
     "nr": 0,
-    "pending": 0
+    "pending": 1
   },
-  "staked": 0.22,
-  "returned": 0.0,
+  "staked": 0,
+  "returned": 0,
   "bank": {
-    "start": 21.65,
+    "start": 21.43,
     "end": 21.43,
     "next_stake": 0.21,
     "season_start": 10.0,
