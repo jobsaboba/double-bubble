@@ -1,21 +1,59 @@
 {
-  "date": "2026-11-17",
-  "generated": "2026-11-17T22:30:31+00:00",
+  "date": "2026-11-18",
+  "generated": "2026-11-18T05:25:02+00:00",
   "races": [
     {
-      "time": "18:00",
-      "meeting": "Southwell",
-      "name": "AWC Season 14 Has Begun Fillies' Novice Stakes (GBB/GBBPlus Race)",
+      "time": "12:33",
+      "meeting": "Hexham",
+      "name": "British Stallion Studs EBF 'National Hunt' Novices' Hurdle (GBB Race)",
       "picks": [
         {
-          "horse": "Bintnaseefa",
-          "stars": 4,
-          "odds": "9/2",
-          "score1": 111.0,
-          "score2": 55.09,
+          "horse": "Lord Du Gouet",
+          "stars": 5,
+          "odds": "11/8",
+          "score1": 162.54,
+          "score2": 37.0,
           "pos": 0,
-          "res": "NR",
-          "stake": 0.0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 21.43
+        }
+      ]
+    },
+    {
+      "time": "13:18",
+      "meeting": "Ffos Las",
+      "name": "Dandara Maiden Hurdle (GBB Race) (Div 2)",
+      "picks": [
+        {
+          "horse": "Diamond Street",
+          "stars": 5,
+          "odds": "5/4",
+          "score1": 105.63,
+          "score2": 48.26,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 21.43
+        }
+      ]
+    },
+    {
+      "time": "15:18",
+      "meeting": "Ffos Las",
+      "name": "3A's Leisure Novices' Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Wispit Twob",
+          "stars": 4,
+          "odds": "9/4",
+          "score1": 100.36,
+          "score2": 44.14,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
           "ret": null,
           "bank_after": 21.43
         }
@@ -23,13 +61,13 @@
     }
   ],
   "score": {
-    "picks": 1,
+    "picks": 3,
     "settled": 0,
     "won": 0,
     "placed": 0,
     "lost": 0,
-    "nr": 1,
-    "pending": 0
+    "nr": 0,
+    "pending": 3
   },
   "staked": 0,
   "returned": 0,
