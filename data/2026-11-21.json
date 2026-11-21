@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21",
+  "generated": "2026-11-21T05:25:02+00:00",
+  "races": [
+    {
+      "time": "11:53",
+      "meeting": "Punchestown",
+      "name": "Sebden Steel Maiden Hurdle",
+      "picks": [
+        {
+          "horse": "Delamotte",
+          "stars": 5,
+          "odds": "3/1",
+          "score1": 209.1,
+          "score2": 62.71,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 21.33
+        }
+      ]
+    },
+    {
+      "time": "14:45",
+      "meeting": "Punchestown",
+      "name": "Total Event Rental 3-Y-O Hurdle",
+      "picks": [
+        {
+          "horse": "Momentum Of Love",
+          "stars": 5,
+          "odds": "7/4",
+          "score1": 206.1,
+          "score2": 41.35,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 21.33
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 2,
+    "settled": 0,
+    "won": 0,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 2
+  },
+  "staked": 0,
+  "returned": 0,
+  "bank": {
+    "start": 21.33,
+    "end": 21.33,
+    "next_stake": 0.21,
+    "season_start": 10.0,
+    "season_end": 21.33
+  }
+}
