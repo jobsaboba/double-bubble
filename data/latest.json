@@ -1,116 +1,249 @@
 {
-  "date": "2026-11-22",
-  "generated": "2026-11-23T23:31:07+00:00",
+  "date": "2026-11-24",
+  "generated": "2026-11-24T05:25:01+00:00",
   "races": [
     {
-      "time": "12:19",
-      "meeting": "Cork",
-      "name": "Irish Stallion Farms EBF Academy Hurdle",
-      "picks": [
-        {
-          "horse": "Noon Blu Dodville",
-          "stars": 4,
-          "odds": "11/10",
-          "score1": 93.0,
-          "score2": 28.29,
-          "pos": 2,
-          "res": "PLACE",
-          "stake": 0.21,
-          "ret": 0.0,
-          "bank_after": 20.43
-        }
-      ]
-    },
-    {
-      "time": "12:49",
-      "meeting": "Cork",
-      "name": "Join Racing TV Now With A Free Trial Maiden Hurdle",
-      "picks": [
-        {
-          "horse": "Maestro Des Pins",
-          "stars": 5,
-          "odds": "9/4",
-          "score1": 118.75,
-          "score2": 45.29,
-          "pos": 2,
-          "res": "PLACE",
-          "stake": 0.2,
-          "ret": 0.0,
-          "bank_after": 20.23
-        }
-      ]
-    },
-    {
-      "time": "12:55",
+      "time": "12:08",
       "meeting": "Lingfield",
-      "name": "Midnite A Next Generation Betting App Novice Stakes (GBB/GBBPlus Race)",
+      "name": "AWC Season 14 Has Begun Nursery",
       "picks": [
         {
-          "horse": "Olympic Charter",
+          "horse": "Pride's Queen",
           "stars": 5,
-          "odds": "2/1",
-          "score1": 69.43,
-          "score2": 32.32,
-          "pos": 1,
-          "res": "WIN",
-          "stake": 0.2,
-          "ret": 0.6,
-          "bank_after": 20.63
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "meeting": "Punchestown",
-      "name": "Colm Quinn BMW Novice Handicap Hurdle",
-      "picks": [
-        {
-          "horse": "World As One",
-          "stars": 3,
-          "odds": "11/4",
-          "score1": 166.77,
-          "score2": 68.64,
-          "pos": 2,
-          "res": "PLACE",
+          "odds": "3/1",
+          "score1": 96.39,
+          "score2": 44.88,
+          "pos": 0,
+          "res": null,
           "stake": 0.21,
-          "ret": 0.0,
-          "bank_after": 20.42
+          "ret": null,
+          "bank_after": 20.66
         }
       ]
     },
     {
-      "time": "15:30",
-      "meeting": "Punchestown",
-      "name": "Keadeen Hotel (Pro/Am) Flat Race",
+      "time": "12:45",
+      "meeting": "Tramore",
+      "name": "2027 Annual Badge At Tramore Racecourse Maiden Hurdle",
       "picks": [
         {
-          "horse": "Ceasar's Ball",
+          "horse": "Forty Fifty",
           "stars": 5,
-          "odds": "6/5",
-          "score1": 120.6,
-          "score2": 56.0,
-          "pos": 1,
-          "res": "WIN",
-          "stake": 0.2,
-          "ret": 0.44,
+          "odds": "10/11",
+          "score1": 153.69,
+          "score2": 43.0,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "12:53",
+      "meeting": "Wincanton",
+      "name": "Bloomfield & Associate Maiden Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Just A Heartbeat",
+          "stars": 0,
+          "odds": "",
+          "score1": 70.0,
+          "score2": 35,
+          "pos": 0,
+          "res": "NR",
+          "stake": 0.0,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "13:15",
+      "meeting": "Tramore",
+      "name": "New Years Day Discount Tickets Online Mares Maiden Hurdle",
+      "picks": [
+        {
+          "horse": "Even Tho",
+          "stars": 5,
+          "odds": "1/3",
+          "score1": 113.94,
+          "score2": 44.42,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "13:23",
+      "meeting": "Wincanton",
+      "name": "C J Cox Novices' Hurdle (GBB Race)",
+      "picks": [
+        {
+          "horse": "Trojan Truth",
+          "stars": 0,
+          "odds": "",
+          "score1": 102.0,
+          "score2": 35,
+          "pos": 0,
+          "res": "NR",
+          "stake": 0.0,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "14:15",
+      "meeting": "Tramore",
+      "name": "Bill Halley Outstanding Contribution Award 2026 Handicap Hurdle (0-100)",
+      "picks": [
+        {
+          "horse": "Lake Chad",
+          "stars": 3,
+          "odds": "4/1",
+          "score1": 162.09,
+          "score2": 66.29,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "14:23",
+      "meeting": "Wincanton",
+      "name": "Barbers 1833 X Mares' Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Just A Heartbeat",
+          "stars": 0,
+          "odds": "",
+          "score1": 70.0,
+          "score2": 28,
+          "pos": 0,
+          "res": "NR",
+          "stake": 0.0,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "15:23",
+      "meeting": "Wincanton",
+      "name": "Killens 'Junior' NH Flat Race (GBB Race)",
+      "picks": [
+        {
+          "horse": "Unwrappit",
+          "stars": 0,
+          "odds": "",
+          "score1": 27.0,
+          "score2": 10,
+          "pos": 0,
+          "res": "NR",
+          "stake": 0.0,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "15:26",
+      "meeting": "Southwell",
+      "name": "Conferences And Events At Southwell Racecourse Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "Saligo Bay",
+          "stars": 3,
+          "odds": "16/1",
+          "score1": 294.0,
+          "score2": 111.29,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "15:50",
+      "meeting": "Tramore",
+      "name": "Irish Stallion Farms EBF Mares (Ladies Pro/Am) Flat Race",
+      "picks": [
+        {
+          "horse": "Lady Aurora",
+          "stars": 5,
+          "odds": "5/4",
+          "score1": 131.4,
+          "score2": 44.33,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "17:30",
+      "meeting": "Wolverhampton",
+      "name": "All Weather Championship Is Back EBF Maiden Stakes (GBB/GBBPlus Race) (Div 1)",
+      "picks": [
+        {
+          "horse": "Zajal",
+          "stars": 5,
+          "odds": "10/11",
+          "score1": 188.59,
+          "score2": 39.85,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.66
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "meeting": "Wolverhampton",
+      "name": "All Weather Championship Is Back EBF Maiden Stakes (GBB/GBBPlus Race) (Div 2)",
+      "picks": [
+        {
+          "horse": "Mythical Tale",
+          "stars": 3,
+          "odds": "5/1",
+          "score1": 161.59,
+          "score2": 50.86,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
           "bank_after": 20.66
         }
       ]
     }
   ],
   "score": {
-    "picks": 5,
-    "settled": 5,
-    "won": 2,
-    "placed": 3,
+    "picks": 12,
+    "settled": 0,
+    "won": 0,
+    "placed": 0,
     "lost": 0,
-    "nr": 0,
-    "pending": 0
+    "nr": 4,
+    "pending": 8
   },
-  "staked": 1.02,
-  "returned": 1.04,
+  "staked": 0,
+  "returned": 0,
   "bank": {
-    "start": 20.64,
+    "start": 20.66,
     "end": 20.66,
     "next_stake": 0.21,
     "season_start": 10.0,
