@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generated": "2026-11-24T14:01:36+00:00",
+  "generated": "2026-11-24T14:31:18+00:00",
   "races": [
     {
       "time": "12:08",
@@ -108,11 +108,11 @@
           "odds": "4/1",
           "score1": 162.09,
           "score2": 66.29,
-          "pos": 0,
-          "res": "NR",
-          "stake": 0.0,
-          "ret": null,
-          "bank_after": 20.7
+          "pos": 4,
+          "res": "LOSE",
+          "stake": 0.21,
+          "ret": 0.0,
+          "bank_after": 20.49
         }
       ]
     },
@@ -131,7 +131,7 @@
           "res": "NR",
           "stake": 0.0,
           "ret": null,
-          "bank_after": 20.7
+          "bank_after": 20.49
         }
       ]
     },
@@ -150,7 +150,7 @@
           "res": "NR",
           "stake": 0.0,
           "ret": null,
-          "bank_after": 20.7
+          "bank_after": 20.49
         }
       ]
     },
@@ -167,9 +167,9 @@
           "score2": 111.29,
           "pos": 0,
           "res": null,
-          "stake": 0.21,
+          "stake": 0.2,
           "ret": null,
-          "bank_after": 20.7
+          "bank_after": 20.49
         }
       ]
     },
@@ -188,7 +188,7 @@
           "res": "NR",
           "stake": 0.0,
           "ret": null,
-          "bank_after": 20.7
+          "bank_after": 20.49
         }
       ]
     },
@@ -205,9 +205,9 @@
           "score2": 39.85,
           "pos": 0,
           "res": null,
-          "stake": 0.21,
+          "stake": 0.2,
           "ret": null,
-          "bank_after": 20.7
+          "bank_after": 20.49
         }
       ]
     },
@@ -224,29 +224,29 @@
           "score2": 50.86,
           "pos": 0,
           "res": null,
-          "stake": 0.21,
+          "stake": 0.2,
           "ret": null,
-          "bank_after": 20.7
+          "bank_after": 20.49
         }
       ]
     }
   ],
   "score": {
     "picks": 12,
-    "settled": 3,
+    "settled": 4,
     "won": 2,
     "placed": 0,
-    "lost": 1,
-    "nr": 6,
+    "lost": 2,
+    "nr": 5,
     "pending": 3
   },
-  "staked": 0.62,
+  "staked": 0.83,
   "returned": 0.66,
   "bank": {
     "start": 20.66,
-    "end": 20.7,
-    "next_stake": 0.21,
+    "end": 20.49,
+    "next_stake": 0.2,
     "season_start": 10.0,
-    "season_end": 20.7
+    "season_end": 20.49
   }
 }
