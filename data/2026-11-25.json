@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-25",
+  "generated": "2026-11-25T05:25:01+00:00",
+  "races": [
+    {
+      "time": "12:46",
+      "meeting": "Wetherby",
+      "name": "wetherbyracing.co.uk Handicap Hurdle",
+      "picks": [
+        {
+          "horse": "I Heard A Rumour",
+          "stars": 5,
+          "odds": "13/8",
+          "score1": 165.53,
+          "score2": 79.27,
+          "pos": 0,
+          "res": null,
+          "stake": 0.2,
+          "ret": null,
+          "bank_after": 20.13
+        }
+      ]
+    },
+    {
+      "time": "14:46",
+      "meeting": "Wetherby",
+      "name": "Watch Racing TV In HD Novices' Handicap Chase (GBB Race)",
+      "picks": [
+        {
+          "horse": "Albie Littlewood",
+          "stars": 5,
+          "odds": "5/2",
+          "score1": 185.53,
+          "score2": 91.29,
+          "pos": 0,
+          "res": null,
+          "stake": 0.2,
+          "ret": null,
+          "bank_after": 20.13
+        }
+      ]
+    },
+    {
+      "time": "16:20",
+      "meeting": "Kempton",
+      "name": "Racing TV EBF Fillies' Restricted Novice Stakes (GBB Race) (Div 1)",
+      "picks": [
+        {
+          "horse": "Bet You Can't",
+          "stars": 5,
+          "odds": "6/5",
+          "score1": 110.26,
+          "score2": 24.69,
+          "pos": 0,
+          "res": null,
+          "stake": 0.2,
+          "ret": null,
+          "bank_after": 20.13
+        }
+      ]
+    },
+    {
+      "time": "17:20",
+      "meeting": "Kempton",
+      "name": "Unibet/British Stallion Studs EBF Novice Stakes (GBB Race)",
+      "picks": [
+        {
+          "horse": "Highest Peak",
+          "stars": 5,
+          "odds": "5/4",
+          "score1": 192.26,
+          "score2": 39.36,
+          "pos": 0,
+          "res": null,
+          "stake": 0.2,
+          "ret": null,
+          "bank_after": 20.13
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 4,
+    "settled": 0,
+    "won": 0,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 4
+  },
+  "staked": 0,
+  "returned": 0,
+  "bank": {
+    "start": 20.13,
+    "end": 20.13,
+    "next_stake": 0.2,
+    "season_start": 10.0,
+    "season_end": 20.13
+  }
+}
