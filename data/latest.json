@@ -1,79 +1,79 @@
 {
-  "date": "2026-11-25",
-  "generated": "2026-11-25T23:31:25+00:00",
+  "date": "2026-11-26",
+  "generated": "2026-11-26T05:25:01+00:00",
   "races": [
     {
-      "time": "12:46",
-      "meeting": "Wetherby",
-      "name": "wetherbyracing.co.uk Handicap Hurdle",
+      "time": "12:55",
+      "meeting": "Taunton",
+      "name": "Denise Smith Memorial Novices' Limited Handicap Hurdle",
       "picks": [
         {
-          "horse": "I Heard A Rumour",
+          "horse": "Anothermanicmonday",
+          "stars": 3,
+          "odds": "5/2",
+          "score1": 132.0,
+          "score2": 52.67,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.51
+        }
+      ]
+    },
+    {
+      "time": "13:56",
+      "meeting": "Thurles",
+      "name": "Horse And Jockey 3-Y-O Maiden Hurdle",
+      "picks": [
+        {
+          "horse": "Neria",
           "stars": 5,
           "odds": "13/8",
-          "score1": 165.53,
-          "score2": 79.27,
-          "pos": 1,
-          "res": "WIN",
-          "stake": 0.2,
-          "ret": 0.53,
-          "bank_after": 20.46
-        }
-      ]
-    },
-    {
-      "time": "14:46",
-      "meeting": "Wetherby",
-      "name": "Watch Racing TV In HD Novices' Handicap Chase (GBB Race)",
-      "picks": [
-        {
-          "horse": "Albie Littlewood",
-          "stars": 5,
-          "odds": "5/2",
-          "score1": 185.53,
-          "score2": 91.29,
+          "score1": 183.24,
+          "score2": 61.22,
           "pos": 0,
-          "res": "NR",
-          "stake": 0.0,
+          "res": null,
+          "stake": 0.21,
           "ret": null,
-          "bank_after": 20.46
+          "bank_after": 20.51
         }
       ]
     },
     {
-      "time": "16:20",
-      "meeting": "Kempton",
-      "name": "Racing TV EBF Fillies' Restricted Novice Stakes (GBB Race) (Div 1)",
+      "time": "14:31",
+      "meeting": "Thurles",
+      "name": "Irish Stallion Farms EBF Mares Maiden Hurdle",
       "picks": [
         {
-          "horse": "Bet You Can't",
+          "horse": "Mahollia",
           "stars": 5,
-          "odds": "6/5",
-          "score1": 110.26,
-          "score2": 24.69,
+          "odds": "6/4",
+          "score1": 178.36,
+          "score2": 82.56,
           "pos": 0,
-          "res": "LOSE",
-          "stake": 0.2,
-          "ret": 0.0,
-          "bank_after": 20.26
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
+          "bank_after": 20.51
         }
       ]
     },
     {
-      "time": "17:20",
-      "meeting": "Kempton",
-      "name": "Unibet/British Stallion Studs EBF Novice Stakes (GBB Race)",
+      "time": "17:00",
+      "meeting": "Chelmsford City",
+      "name": "Midnite Built Different Handicap (Div 1)",
       "picks": [
         {
-          "horse": "Highest Peak",
-          "stars": 5,
-          "odds": "5/4",
-          "score1": 192.26,
-          "score2": 39.36,
-          "pos": 1,
-          "res": "WIN",
-          "stake": 0.2,
-          "ret": 0.45,
+          "horse": "Sir Rodneyredblood",
+          "stars": 4,
+          "odds": "12/1",
+          "score1": 306.84,
+          "score2": 149.88,
+          "pos": 0,
+          "res": null,
+          "stake": 0.21,
+          "ret": null,
           "bank_after": 20.51
         }
       ]
@@ -81,17 +81,17 @@
   ],
   "score": {
     "picks": 4,
-    "settled": 3,
-    "won": 2,
+    "settled": 0,
+    "won": 0,
     "placed": 0,
-    "lost": 1,
-    "nr": 1,
-    "pending": 0
+    "lost": 0,
+    "nr": 0,
+    "pending": 4
   },
-  "staked": 0.6,
-  "returned": 0.98,
+  "staked": 0,
+  "returned": 0,
   "bank": {
-    "start": 20.13,
+    "start": 20.51,
     "end": 20.51,
     "next_stake": 0.21,
     "season_start": 10.0,
