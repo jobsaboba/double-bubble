@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-28",
+  "generated": "2026-11-28T05:25:01+00:00",
+  "races": [
+    {
+      "time": "13:25",
+      "meeting": "Newcastle",
+      "name": "SES Engineering Powering Past The Rehearsal Handicap Chase (Premier Handicap) (GBB Race)",
+      "picks": [
+        {
+          "horse": "Il Est Francais",
+          "stars": 4,
+          "odds": "11/2",
+          "score1": 286.05,
+          "score2": 124.22,
+          "pos": 0,
+          "res": null,
+          "stake": 0.2,
+          "ret": null,
+          "bank_after": 20.32
+        }
+      ]
+    },
+    {
+      "time": "13:33",
+      "meeting": "Bangor-on-Dee",
+      "name": "Paul Ferguson Jumpers To Follow Novices' Hurdle (GBB Race) (Div 1)",
+      "picks": [
+        {
+          "horse": "Scott's Legacy",
+          "stars": 5,
+          "odds": "4/5",
+          "score1": 65.14,
+          "score2": 24.41,
+          "pos": 0,
+          "res": null,
+          "stake": 0.2,
+          "ret": null,
+          "bank_after": 20.32
+        }
+      ]
+    },
+    {
+      "time": "15:43",
+      "meeting": "Fairyhouse",
+      "name": "Willie Elliott Memorial (Pro/Am) Flat Race",
+      "picks": [
+        {
+          "horse": "Uncle Pad",
+          "stars": 5,
+          "odds": "11/10",
+          "score1": 79.22,
+          "score2": 36.33,
+          "pos": 0,
+          "res": null,
+          "stake": 0.2,
+          "ret": null,
+          "bank_after": 20.32
+        }
+      ]
+    }
+  ],
+  "score": {
+    "picks": 3,
+    "settled": 0,
+    "won": 0,
+    "placed": 0,
+    "lost": 0,
+    "nr": 0,
+    "pending": 3
+  },
+  "staked": 0,
+  "returned": 0,
+  "bank": {
+    "start": 20.32,
+    "end": 20.32,
+    "next_stake": 0.2,
+    "season_start": 10.0,
+    "season_end": 20.32
+  }
+}
